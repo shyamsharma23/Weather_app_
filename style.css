@@ -1,4 +1,48 @@
+body{
+    background: url(./images/pexels-pixabay-531880.jpg);
+}
+.prompt{
+    color: white;
+}
+
 .card{
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    width: 100%;
+    padding: 2.5em;
+    max-width: 35%;
+    background-color: rgba(0, 162, 255, 0.5);
+}
+.form{
+    /* border: 2px solid red; */
     display: flex;
-    flex-direction: column;
+    width: 100%;
+
+}
+.form input{
+    width: 100%;
+    max-width: 200px;
+    border-radius: 0.5em;
+}
+img{
+    max-width: 100%;
+}
+.btn{
+    display: inline-block;
+    padding: 0.5em 1.2em;
+    border: none;
+    color: white;
+    background-color: royalblue;
+    cursor: pointer;
+    margin-left: 1em;
+    border-radius: 0.5em;
+    max-width: 30%;
+}
+.text{
+    margin-top: 1em;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: royalblue;
 }
