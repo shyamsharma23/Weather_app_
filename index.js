@@ -18,6 +18,7 @@ form.addEventListener("submit",  async (e)=>{
         document.getElementById("background").classList.add("background-two")
         document.getElementById("attribute").textContent = "Photo by Juha Lakaniemi on Unsplash"
     }
+    form.elements.city.value = ""
 })
 
 
